@@ -1,0 +1,14 @@
+{
+  "name": "BMI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "@youpaichris/logger": "^6.1.1",
+    "ethers": "^6.13.4"
+  }
+}
