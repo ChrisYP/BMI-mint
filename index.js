@@ -3,10 +3,12 @@ const Logger = require("@youpaichris/logger");
 const {BigNumber} = require("ethers");
 const logger = new Logger();
 
-const PrivateKey = "私钥"
-const RPC = "https://rpc.ankr.com/base"
+const PrivateKey = "私钥";
+const RPC = "https://rpc.ankr.com/base";
+
 let maxFeePerGas = ethers.utils.parseUnits("1", "gwei");
 let maxPriorityFeePerGas = ethers.utils.parseUnits("0.05", "gwei");
+
 if(!RPC) {
     logger.error("RPC URL is required");
     process.exit(1);
